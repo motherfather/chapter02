@@ -9,5 +9,6 @@ public class Bus extends Car {
 		accelator = 0;
 		
 //		public은 어디서나 가능
+		
 	}
 }
