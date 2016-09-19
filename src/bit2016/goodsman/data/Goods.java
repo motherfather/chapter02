@@ -17,10 +17,12 @@ public class Goods {
 		return name;
 	}
 
+	// return 값이 없고 매개변수 (parameter) 가 있는 메소드
 	public void setName(String name) {
 		this.name = name;
 	}
 
+	// return 값이 없고 매개변수 (parameter) 가 없는 메소드
 	public int getPrice() {
 		return price;
 	}
@@ -32,7 +34,7 @@ public class Goods {
 			price = 0;
 		}
 		this.price = price; // 객체(인스턴스) 자신을 가리킬때 this!!
-	} 									 // 파라미터 price와 구분하기 위해서!!
+	} // 파라미터 price와 구분하기 위해서!!
 
 	public int getCountStock() {
 		return countStock;
@@ -49,4 +51,16 @@ public class Goods {
 	public void setCountSold(int countSold) {
 		this.countSold = countSold;
 	}
+
+	public void showInfo() {
+		System.out.println(	"name:" + name + ", price=" + price + ", conutStock=" + countStock + ", countSold=" + countSold);
+	}
+	
+	// return 값이 있고 매개변수 (parameter) 가 있는 메소드
+	public int calcDiscountPrice(double rate) {
+		int discountPrice  = (int) (price * rate);
+		return discountPrice;
+	}
+	
+
 }
