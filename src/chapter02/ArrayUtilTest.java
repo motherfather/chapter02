@@ -6,6 +6,14 @@ public class ArrayUtilTest {
 
 		// int 배열을 double 배열로 변환
 		int[] arrayInt = { 10, 20, 30, 40, 50 };
+//		<방법2>
+//		int[] arrayInt = new int[] { 10, 20, 30, 40, 50 };
+//		<방법3>
+//		int[] arryInt = new int[5];
+//		arrayInt[0] = 10;
+//		...
+//		...
+//		...
 		double[] arrayDouble = ArrayUtil.intToDouble(arrayInt);
 
 		for (int i = 0; i < arrayDouble.length; i++) {
