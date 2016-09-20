@@ -23,6 +23,11 @@ public class WatchTV {
 
 		tv.power(false);
 		tv.status();
+		
+//		Object의 메소드!
+//		tv.hashCode();
+//		tv.toString();
+//		자동으로 최상위 클래스 Object를 상속한다
 	}
 
 }
