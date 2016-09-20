@@ -21,6 +21,8 @@ public class PaintApp {
 		Shape rectangle = new Rectangle();
 //		rectangle.draw();
 		draw(rectangle);
+//		rectangle.getY1();
+//		참조변수가 부모라서 자식에게만 있는 메소드는 접근 불가!!
 		
 		Shape circle = new Circle();
 //		circle.draw();
