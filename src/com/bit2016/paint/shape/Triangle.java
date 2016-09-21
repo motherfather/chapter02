@@ -1,6 +1,8 @@
-package bit2016.paint;
+package com.bit2016.paint.shape;
 
-public class Triangle extends Shape {
+import com.bit2016.paint.i.Drawable;
+
+public class Triangle extends Shape implements Drawable {
 	private int x1;
 	private int y1;
 	private int x2;
@@ -59,6 +61,12 @@ public class Triangle extends Shape {
 	@Override
 	public void draw() {
 		System.out.println("삼각형을 그렸습니다.");
+	}
+
+	@Override
+	public double calculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	

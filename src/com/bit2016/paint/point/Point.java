@@ -1,4 +1,4 @@
-package bit2016.paint;
+package com.bit2016.paint.point;
 
 public class Point {
 	private int x;
